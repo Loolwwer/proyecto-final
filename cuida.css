@@ -1,0 +1,190 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lobster-two-bold {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Exo", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color:#333;
+    background-color: #f2e8cf;
+}
+
+ @keyframes changeColor {
+    0% { background-position: 0 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0 50%; }
+}
+
+header {
+    background: linear-gradient(-45deg, #bc4749, #a7c957, #6a994e, #386641, #bc4749);
+    color: #fff;
+    padding: 10px;
+    font-size:250%;
+    text-align: center;
+    background-size: 200% 200%;
+    animation: changeColor 8s infinite alternate;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    font-family: "Palanquin", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.que_es_ansiedad {
+    background-color: #f2e8cf;
+    padding: 40px;
+    text-align: center;
+    color:#333;
+}
+
+.que_es_ansiedad .contenido {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    background-color: #f2e8cf;
+    color:#333;
+    font-size:20px;
+}
+
+.que_es_ansiedad .contenido h2 {
+    color:#386641;
+    background-color: #f2e8cf;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.que_es_ansiedad .contenido p {
+    font-size: 20px;
+    line-height: 1.6;
+    color:#333;
+    background-color: #f2e8cf;
+}
+
+.que_es_ansiedad .imagenes img {
+    max-width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.como_tratar_ansiedad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2e8cf;
+    border: 1px solid  #f2e8cf;
+}
+
+.como_tratar_ansiedad h2 {
+    font-size: 30px; 
+    color:#386641;
+    margin-bottom: 20px; 
+    background-color: #f2e8cf;
+}
+
+.como_tratar_ansiedad p {
+    font-size: 20px; 
+    color:#333;
+    margin-bottom: 10px; 
+    align-items:center;
+    background-color: #f2e8cf;
+}
+
+section#recursos h2 {
+    text-align: center;
+    background-color: #f2e8cf;
+    color:#386641;
+}
+
+section#recursos ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+    background-color: #f2e8cf;
+}
+
+section#recursos ul li {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+    background-color: #f2e8cf;
+}
+
+section#recursos ul li iframe {
+    width: 100%;
+    height: 100%;
+    background-color: #f2e8cf;
+}
+footer {
+    background: linear-gradient(-45deg, #bc4749, #a7c957, #6a994e, #386641, #bc4749);
+    background-size: 200% 200%;
+    animation: changeColor 8s infinite alternate;
+    color: black; 
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+}
+
+.footer_padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+    padding: 20px;
+    height: 40px;
+}
+
+.footer_padre a {
+    text-decoration: none;
+    color: #333; 
+}
+
+.footer_padre img {
+    width: 20px; 
+}
+
+.footer_padre label {
+    display: block; 
+    margin-top: 10px; 
+    margin-bottom: 5px;
+}
+
+.de{
+    font-size:10px; 
+    margin-left: 30px;
+    color:#333;
+}
